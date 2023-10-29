@@ -10,33 +10,40 @@ The dataset used for this project is the "Sentiment Labelled Sentences Dataset" 
 
 **Dataset Link:** [Sentiment Labelled Sentences Data Set](link_to_the_dataset)
 
-## Project Deliverables
+## Features
 
-1. **Data Gathering:**
-   - Gather the sentiment analysis dataset from the UCI Machine Learning Repository.
-  
-2. **Data Preprocessing:**
-   - Tokenize the sentences.
-   - Convert text to lowercase.
-   - Remove stopwords using NLTK.
-  
-3. **Baseline Model:**
-   - Implement a DummyClassifier.
-   - Train the model on preprocessed data.
-   - Evaluate the model's performance using accuracy, precision, recall, and F1-score metrics.
+- Tokenization of sentences
+- Lowercasing of text
+- Removal of stopwords using NLTK
+- Implementation of DummyClassifier as a baseline model
+- Vanilla RNN and LSTM sentiment analysis models
+- Hyperparameter tuning using GridSearchCV
+- Enhanced sentiment analysis model using Turing neural networks (details needed)
 
-4. **Vanilla RNN Model:**
-   - Implement a vanilla RNN sentiment analysis model.
-   - Train the model on preprocessed data.
-   - Evaluate the model's performance using accuracy, precision, recall, F1-score, and kappa.
-   - Use GridSearchCV to find the best hyperparameters.
+  ## Installation
 
-5. **LSTM Model:**
-   - Implement an LSTM sentiment analysis model.
-   - Train the model on preprocessed data.
-   - Evaluate the model's performance using accuracy, precision, recall, F1-score, and kappa.
-   - Use GridSearchCV to find the best hyperparameters.
+To set up the Interactive Dungeons & Dragons Story Generator on your local machine, follow these steps:
 
-6. **Enhanced Model:**
-   - Implement an enhanced sentiment analysis model using Turing neural networks (details needed).
-   - Train the model and evaluate its performance.
+1. Clone the repository: `git clone https://github.com/trp216/sentAIment-analysis.git`
+2. Navigate to the project directory: `cd sentAIment-analysis`
+3. Install the required dependencies: 
+
+## Usage
+
+1. Load the sentiment analysis dataset.
+2. Run the Jupyter notebook and follow the instructions provided in the notebook cells.
+3. Analyze the results and compare the performance of different models.
+
+## Contributions
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
+
+   
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Authors
+[Duvan Ricardo Cuero Colorado](https://github.com/merolemay)
+
+[Alejandra Diaz Parra](https://github.com/trp216)
