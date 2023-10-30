@@ -18,7 +18,7 @@ The dataset used for this project is the "Sentiment Labelled Sentences Dataset" 
 - Implementation of DummyClassifier as a baseline model
 - Vanilla RNN and LSTM sentiment analysis models
 - Hyperparameter tuning using GridSearchCV
-- Enhanced sentiment analysis model using Turing neural networks (details needed)
+- Enhanced sentiment analysis model using Turing neural networks 
 
   ## Installation
 
