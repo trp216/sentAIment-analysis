@@ -26,12 +26,26 @@ To set up the Interactive Dungeons & Dragons Story Generator on your local machi
 
 1. Clone the repository: `git clone https://github.com/trp216/sentAIment-analysis.git`
 2. Navigate to the project directory: `cd sentAIment-analysis`
-3. Install the required dependencies: 
+3. Install the required dependencies:
+
+```
+pip install keras
+pip install scikeras
+```
+If you are running the project for the first time, you will have to install nltk by [using pip](https://www.nltk.org/install.html) or uncomment the line 
+```
+#nltk.download('all')    # run just once
+```
+in the dependencies installation section of the notebook.
+
+You will also need to install Tensorflow: [Install Tensorflow with pip](https://www.tensorflow.org/install/pip)
+
+Note: this project was made using Python 3.11.4.
 
 ## Usage
 
 1. Load the sentiment analysis dataset.
-2. Run the Jupyter notebook and follow the instructions provided in the notebook cells.
+2. Run the Jupyter notebook and follow the instructions provided in the notebook cells. 
 3. Analyze the results and compare the performance of different models.
 
 ## Contributions
