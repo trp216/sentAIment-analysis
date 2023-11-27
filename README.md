@@ -8,7 +8,7 @@ This project aims to build a sentiment analysis model using supervised learning 
 
 The dataset used for this project is the "Sentiment Labelled Sentences Dataset" sourced from the UC Irvine Machine Learning Repository. The dataset comprises sentences from three different websites: amazon.com, imdb.com, and yelp.com. Each website contributes 500 positive and 500 negative sentences, making a total of 3000 labeled sentences for analysis. The dataset was originally curated for the paper 'From Group to Individual Labels using Deep Features' by Kotzias et al., KDD 2015.
 
-**Dataset Link:** [Sentiment Labelled Sentences Data Set](link_to_the_dataset)
+**Dataset Link:** [Sentiment Labelled Sentences Data Set](https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences)
 
 ## Features
 
